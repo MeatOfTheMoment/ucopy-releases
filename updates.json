@@ -1,19 +1,19 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.13.0",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.13.0/ucopy-setup.exe",
-    "sha256": "708f24e2795866d81ce5abe6347422a295cde1bbe44e09091722ae12c4601e42",
-    "signature": "c7daa152f7459a2715ffaa799e6d6bbc0c368862088e881b595b98e51708d9e30064cec593ffac833595e25e83fe51a385d55190c83144323134f923ea77b80b",
-    "notes": "The first release published here, and the first that looks for updates.\n- Updates: ucopy says when a new version is available and installs it when you tap Update.\n- Browse the phone's files from the desktop: recent pictures and folders, Save to, Copy.\n- Back up the phone to ucopy on your computer, without a shared folder.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.13.0"
+    "version": "0.14.0",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.14.0/ucopy-setup.exe",
+    "sha256": "be148c745c735d8e413fab6a5153c7bfeac04871fc612ab6c69d8b8757820eba",
+    "signature": "55aaa0125b46fdc130dfe3fbd3055d75d97e085571762268b0aa515c9516832eeefe9e01a788b97b7793fccf92d5567274a90d962684c4da7ac1c7b2cc69210a",
+    "notes": "- Phone files on the desktop: Choose all in a folder.\n- The phone now asks when the desktop wants to see its files, and Recent pictures work (both were broken in 0.13.0's phone app).\n- The desktop shows its version on the bottom bar.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.14.0"
   },
   "android": {
-    "version": "0.13.0",
-    "code": 37,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.13.0/ucopy-0.13.0.apk",
-    "sha256": "ea44858b0c0fa656e7d2bf52b10afbfc4acd5b6c43ef030abbf9139db1830e18",
-    "notes": "The first release published here, and the first that looks for updates.\n- Updates: ucopy says when a new version is available and installs it when you tap Update.\n- Browse the phone's files from the desktop: recent pictures and folders, Save to, Copy.\n- Back up the phone to ucopy on your computer, without a shared folder.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.13.0"
+    "version": "0.14.0",
+    "code": 38,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.14.0/ucopy-0.14.0.apk",
+    "sha256": "b6e2d1de463299e0d444d653521dc412e0275f6e81d48c2951cfe2fcd2ba478f",
+    "notes": "- Phone files on the desktop: Choose all in a folder.\n- The phone now asks when the desktop wants to see its files, and Recent pictures work (both were broken in 0.13.0's phone app).\n- The desktop shows its version on the bottom bar.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.14.0"
   }
 }
