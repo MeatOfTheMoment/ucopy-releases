@@ -1,20 +1,20 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.15.0",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.15.0/ucopy-setup.exe",
-    "sha256": "687b451fd836dcaec2683fd335a1d94141abc909b67fb99f4d74019324d48fa0",
-    "signature": "aaf8301a0d5734ce8fedc1f097224a8fc9b802af577c75d34652893d1a1f109d5bc8ae2da82887ace02db9261969018054545a0fe77111c5ac4607fa450b8e00",
-    "notes": "Send files from the computer to the phone: while the phone shows its files (Show my files), use Send files to\u2026 on the computer or drop files and folders on its window. They go into the folder open there, or the phone's Download folder. Files the phone has already are never replaced without asking.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.15.0"
+    "version": "0.15.1",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.15.1/ucopy-setup.exe",
+    "sha256": "0f35f0067c0c80a640630bd7a9b8daedeab03f15351d72ffe003d04234792fba",
+    "signature": "8b3e8c379fa99cd07b902ed1ee25eba1dd63fa88e30a8e5ec5fcaafc94f36a56a8be12f3582544bb7f87680a0c95984c6511a3b317db20d63488713cab5ad403",
+    "notes": "- Windows: after an update, ucopy opens again by itself once the installer is done (from the next update on: the version doing the updating starts it).",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.15.1"
   },
   "android": {
-    "version": "0.15.0",
-    "code": 41,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.15.0/ucopy-0.15.0.apk",
-    "sha256": "1f8cb415531ef557cf30cfc686b60e4298e5532b7f20de7efe2d4698dc1c16ef",
-    "notes": "Send files from the computer to the phone: while the phone shows its files (Show my files), use Send files to\u2026 on the computer or drop files and folders on its window. They go into the folder open there, or the phone's Download folder. Files the phone has already are never replaced without asking.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.15.0"
+    "version": "0.15.1",
+    "code": 42,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.15.1/ucopy-0.15.1.apk",
+    "sha256": "62250dd890414dfea93107b6b1db54cb20c3d7836568e7f477eb129b1c7d75c4",
+    "notes": "- Windows: after an update, ucopy opens again by itself once the installer is done (from the next update on: the version doing the updating starts it).",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.15.1"
   },
   "macos": {
     "version": "0.14.1",
