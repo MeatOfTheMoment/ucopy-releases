@@ -17,11 +17,11 @@
     "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.17.0"
   },
   "macos": {
-    "version": "0.16.1",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.16.1/ucopy-0.16.1.dmg",
-    "sha256": "d30b6fec96d4e46bd0cb0ce063e76bb75bdb2d449ad39cd212bfd55f6940bfa2",
-    "signature": "f6d8c075bffa91b5d28a97430715f819dd7eecc2a0cb2fed9f4b5c87f432777186bff47b713656c60adf36b7fef6cbfca64918a47f049925d0de3b3ff906640b",
-    "notes": "- Windows: after an update, the installer opens ucopy again by itself (from this update on).",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.16.1"
+    "version": "0.17.0",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.17.0/ucopy-0.17.0.dmg",
+    "sha256": "5dcc6b82fcc9a3ab23a2ab59d87edb322d48c041f2f6146d5bc71a46dd749003",
+    "signature": "09f92713215343bb6b0f56ea6f2d01f8a77c696eb3c9f3f80470eef6e6c9658549b7ecf0097fec4c4e9696007bddd5283604c9528e7ef7b7e19dbc7890f2f105",
+    "notes": "- A new Simple view, where ucopy now opens: it asks what you want to do and walks you through it a step at a time. Rescue files from a failing drive, back up regularly, image a whole disk, or copy and move files. The full window is one click away under Advanced, at the top.\n- The home page shows each backup with whether it's up to date, with Back up now and Get files back.\n- Backups no longer stop on the hidden \"My Music\", \"My Pictures\" and \"My Videos\" shortcuts Windows keeps in Documents.\n- Explorer's ucopy menu: Image on a drive now chooses that drive, and Copy, Back up and Image open their steps.\n- Windows: the installer shows its progress.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.17.0"
   }
 }
