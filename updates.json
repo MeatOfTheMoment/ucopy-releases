@@ -1,20 +1,20 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.16.0",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.16.0/ucopy-setup.exe",
-    "sha256": "c053ba50dceb94cd29ca0f8cd86195ce57688fd372e97cab25d4d3b4b02e019a",
-    "signature": "b4143b79ecafe6f8ee5ced7a922b33e189b9f86e2434b925368aa381889c25169a4a3934a478c0080b60d64cf3f62468f62c991a1de87d5d6da59e86f006a00f",
-    "notes": "- Windows: a ucopy menu in Explorer (right-click, Show more options): Copy and Move for files and folders, Back up for folders and drives, Image for drives. An open ucopy window takes what you choose.\n- When done: after a copy or backup, ucopy can put the computer to sleep or shut it down, with a minute to say no.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.16.0"
+    "version": "0.16.1",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.16.1/ucopy-setup.exe",
+    "sha256": "125a07e5abd1e546a7b72584e81d9030dd83bab011c6e252360cd3665d74de17",
+    "signature": "28d571f0693108e04e32aa48aaa8b24b4fb55d656a1da7b8c2c99ace249e7b884f820b394b49fefdd5cad05c10c3cbf1a08a52e4f15e5b8d7ba84fece5d3ce09",
+    "notes": "- Windows: after an update, the installer opens ucopy again by itself (from this update on).",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.16.1"
   },
   "android": {
-    "version": "0.16.0",
-    "code": 43,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.16.0/ucopy-0.16.0.apk",
-    "sha256": "504bcf3f9ad360228b8a43ed46988423c863c06ef2e32efaf2d29af1cf6f52c2",
-    "notes": "- Windows: a ucopy menu in Explorer (right-click, Show more options): Copy and Move for files and folders, Back up for folders and drives, Image for drives. An open ucopy window takes what you choose.\n- When done: after a copy or backup, ucopy can put the computer to sleep or shut it down, with a minute to say no.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.16.0"
+    "version": "0.16.1",
+    "code": 44,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.16.1/ucopy-0.16.1.apk",
+    "sha256": "cdb8d353b4dc80383f689f6428fbe248a7770d2a1e4e577f87b35c77b2f1c1cd",
+    "notes": "- Windows: after an update, the installer opens ucopy again by itself (from this update on).",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.16.1"
   },
   "macos": {
     "version": "0.16.0",
