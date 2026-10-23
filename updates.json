@@ -1,20 +1,20 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.15.1",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.15.1/ucopy-setup.exe",
-    "sha256": "0f35f0067c0c80a640630bd7a9b8daedeab03f15351d72ffe003d04234792fba",
-    "signature": "8b3e8c379fa99cd07b902ed1ee25eba1dd63fa88e30a8e5ec5fcaafc94f36a56a8be12f3582544bb7f87680a0c95984c6511a3b317db20d63488713cab5ad403",
-    "notes": "- Windows: after an update, ucopy opens again by itself once the installer is done (from the next update on: the version doing the updating starts it).",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.15.1"
+    "version": "0.16.0",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.16.0/ucopy-setup.exe",
+    "sha256": "c053ba50dceb94cd29ca0f8cd86195ce57688fd372e97cab25d4d3b4b02e019a",
+    "signature": "b4143b79ecafe6f8ee5ced7a922b33e189b9f86e2434b925368aa381889c25169a4a3934a478c0080b60d64cf3f62468f62c991a1de87d5d6da59e86f006a00f",
+    "notes": "- Windows: a ucopy menu in Explorer (right-click, Show more options): Copy and Move for files and folders, Back up for folders and drives, Image for drives. An open ucopy window takes what you choose.\n- When done: after a copy or backup, ucopy can put the computer to sleep or shut it down, with a minute to say no.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.16.0"
   },
   "android": {
-    "version": "0.15.1",
-    "code": 42,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.15.1/ucopy-0.15.1.apk",
-    "sha256": "62250dd890414dfea93107b6b1db54cb20c3d7836568e7f477eb129b1c7d75c4",
-    "notes": "- Windows: after an update, ucopy opens again by itself once the installer is done (from the next update on: the version doing the updating starts it).",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.15.1"
+    "version": "0.16.0",
+    "code": 43,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.16.0/ucopy-0.16.0.apk",
+    "sha256": "504bcf3f9ad360228b8a43ed46988423c863c06ef2e32efaf2d29af1cf6f52c2",
+    "notes": "- Windows: a ucopy menu in Explorer (right-click, Show more options): Copy and Move for files and folders, Back up for folders and drives, Image for drives. An open ucopy window takes what you choose.\n- When done: after a copy or backup, ucopy can put the computer to sleep or shut it down, with a minute to say no.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.16.0"
   },
   "macos": {
     "version": "0.15.1",
