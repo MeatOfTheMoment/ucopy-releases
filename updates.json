@@ -1,20 +1,20 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.16.1",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.16.1/ucopy-setup.exe",
-    "sha256": "125a07e5abd1e546a7b72584e81d9030dd83bab011c6e252360cd3665d74de17",
-    "signature": "28d571f0693108e04e32aa48aaa8b24b4fb55d656a1da7b8c2c99ace249e7b884f820b394b49fefdd5cad05c10c3cbf1a08a52e4f15e5b8d7ba84fece5d3ce09",
-    "notes": "- Windows: after an update, the installer opens ucopy again by itself (from this update on).",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.16.1"
+    "version": "0.17.0",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.17.0/ucopy-setup.exe",
+    "sha256": "e89821649dd2a22c570b655991dc71be435b0803b60650db45f8350b43afe410",
+    "signature": "0df1ee019250a4786d413ddbde60bc962b480f66961888bf1cbdf995f465fe63d7a1009b43d79f6d2d3b65dc41ffbd404a42c41dd290282f0f6a18fe158b570f",
+    "notes": "- A new Simple view, where ucopy now opens: it asks what you want to do and walks you through it a step at a time. Rescue files from a failing drive, back up regularly, image a whole disk, or copy and move files. The full window is one click away under Advanced, at the top.\n- The home page shows each backup with whether it's up to date, with Back up now and Get files back.\n- Backups no longer stop on the hidden \"My Music\", \"My Pictures\" and \"My Videos\" shortcuts Windows keeps in Documents.\n- Explorer's ucopy menu: Image on a drive now chooses that drive, and Copy, Back up and Image open their steps.\n- Windows: the installer shows its progress.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.17.0"
   },
   "android": {
-    "version": "0.16.1",
-    "code": 44,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.16.1/ucopy-0.16.1.apk",
-    "sha256": "cdb8d353b4dc80383f689f6428fbe248a7770d2a1e4e577f87b35c77b2f1c1cd",
-    "notes": "- Windows: after an update, the installer opens ucopy again by itself (from this update on).",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.16.1"
+    "version": "0.17.0",
+    "code": 45,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.17.0/ucopy-0.17.0.apk",
+    "sha256": "0a2afa2b202b68a952e3dc4afcc63557548b2dba2a12ae42644e967d5f5e6c7f",
+    "notes": "- A new Simple view, where ucopy now opens: it asks what you want to do and walks you through it a step at a time. Rescue files from a failing drive, back up regularly, image a whole disk, or copy and move files. The full window is one click away under Advanced, at the top.\n- The home page shows each backup with whether it's up to date, with Back up now and Get files back.\n- Backups no longer stop on the hidden \"My Music\", \"My Pictures\" and \"My Videos\" shortcuts Windows keeps in Documents.\n- Explorer's ucopy menu: Image on a drive now chooses that drive, and Copy, Back up and Image open their steps.\n- Windows: the installer shows its progress.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.17.0"
   },
   "macos": {
     "version": "0.16.1",
