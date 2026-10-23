@@ -17,11 +17,11 @@
     "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.16.0"
   },
   "macos": {
-    "version": "0.15.1",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.15.1/ucopy-0.15.1.dmg",
-    "sha256": "0b56c5609db889fac263c2caec3726a347fd6ab5fe2745c07fe987a4c7b35531",
-    "signature": "a22de33e8f6a3001f954fce0098e8cd93bcc5ee8a6b817f635c1af4d05fac036605fd9db092538b3dda653d9078d1e5bb28f4d6747dd5376a7d599cf38ce9307",
-    "notes": "- Windows: after an update, ucopy opens again by itself once the installer is done (from the next update on: the version doing the updating starts it).",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.15.1"
+    "version": "0.16.0",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.16.0/ucopy-0.16.0.dmg",
+    "sha256": "456b78e751803c82b5fa9936d944f82787a34e4f7d915bc3d26deccb5abd10ec",
+    "signature": "2589ebb148b3e2f874914fd386b6cf7b4b7eec1d42073579ea58be468dfa2ed42b34a8903f6e1fcc5414a1be55c8bed94bfd639fb82b89c94edd680a98443104",
+    "notes": "- Windows: a ucopy menu in Explorer (right-click, Show more options): Copy and Move for files and folders, Back up for folders and drives, Image for drives. An open ucopy window takes what you choose.\n- When done: after a copy or backup, ucopy can put the computer to sleep or shut it down, with a minute to say no.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.16.0"
   }
 }
