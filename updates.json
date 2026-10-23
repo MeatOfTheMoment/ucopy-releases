@@ -17,11 +17,11 @@
     "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.15.1"
   },
   "macos": {
-    "version": "0.14.1",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.14.1/ucopy-0.14.1.dmg",
-    "sha256": "9dc6941ca926ec3dd4299e9c283f3c7337ea4aeeb9446c2efab2afaf3f8a0d21",
-    "signature": "cee1660a54bb56b79dea17be9173484c637e366874034b8d903709905eb33c7dc1ad6f389f3886a861140b73dd21d7588a43f7a869b7c11ea3a47990a488b208",
-    "notes": "When a file isn't backed up, ucopy now says which one and why: in History on the phone and the computer, on the phone's job card and notification, and in alert emails. Copying phone files to the clipboard tries again when another program is holding the clipboard.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.14.1"
+    "version": "0.15.1",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.15.1/ucopy-0.15.1.dmg",
+    "sha256": "0b56c5609db889fac263c2caec3726a347fd6ab5fe2745c07fe987a4c7b35531",
+    "signature": "a22de33e8f6a3001f954fce0098e8cd93bcc5ee8a6b817f635c1af4d05fac036605fd9db092538b3dda653d9078d1e5bb28f4d6747dd5376a7d599cf38ce9307",
+    "notes": "- Windows: after an update, ucopy opens again by itself once the installer is done (from the next update on: the version doing the updating starts it).",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.15.1"
   }
 }
