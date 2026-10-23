@@ -1,20 +1,20 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.14.1",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.14.1/ucopy-setup.exe",
-    "sha256": "000b865ebbaf1312b7ba74b7836ad5f8671739c434f0deed7def1b92f634d113",
-    "signature": "ab1db44866abbac7e70119d450396ae45baa3766a785f3c04bc8f0a200d1b15de855d49fd4c644abef541f63c1c7702edccab2bf55bfc0c88f2ec5672a00e30a",
-    "notes": "When a file isn't backed up, ucopy now says which one and why: in History on the phone and the computer, on the phone's job card and notification, and in alert emails. Copying phone files to the clipboard tries again when another program is holding the clipboard.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.14.1"
+    "version": "0.14.2",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.14.2/ucopy-setup.exe",
+    "sha256": "8ea341a3907506d1430f592d618677322fcf678b177558ea4507ba77bfc15acd",
+    "signature": "c6679ecb0a0b85b5e6e6a9e4447b6ad053bc3f20c961a6568ebd4a54e73552e7302ac3c15b75e419ce24b56178f59bac719550f077356299b696c0b300316707",
+    "notes": "A backup to ucopy on the computer that loses the connection (the phone left the Wi-Fi) now stops within about half a minute and says why, and both apps show the phone as disconnected. The phone tries again by itself when it's back on the Wi-Fi, and a stopped backup is finished where it left off instead of starting over.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.14.2"
   },
   "android": {
-    "version": "0.14.1",
-    "code": 39,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.14.1/ucopy-0.14.1.apk",
-    "sha256": "f8489daee2afa56b21ddb1a2f1c84291cd65992bbe0435cf23d1cfc9ad598aa7",
-    "notes": "When a file isn't backed up, ucopy now says which one and why: in History on the phone and the computer, on the phone's job card and notification, and in alert emails. Copying phone files to the clipboard tries again when another program is holding the clipboard.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.14.1"
+    "version": "0.14.2",
+    "code": 40,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.14.2/ucopy-0.14.2.apk",
+    "sha256": "ac414f1a9169703779a1e3d6fa1f3f0a83f880f9cb87ccca00379ff968390c0e",
+    "notes": "A backup to ucopy on the computer that loses the connection (the phone left the Wi-Fi) now stops within about half a minute and says why, and both apps show the phone as disconnected. The phone tries again by itself when it's back on the Wi-Fi, and a stopped backup is finished where it left off instead of starting over.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.14.2"
   },
   "macos": {
     "version": "0.14.1",
