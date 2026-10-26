@@ -1,0 +1,169 @@
+UCOPY LICENSE AGREEMENT
+Last updated: October 26, 2026
+
+1. What this agreement covers
+-----------------------------
+
+This agreement is between you and the developer of ucopy ("we", "us"). It
+covers the ucopy software: the desktop app, the command-line programs
+(ucopy-cli, ucopy-task), the installer, the phone app, their updates, and the
+documentation that comes with them (together, "ucopy").
+
+By installing, copying or using ucopy you agree to these terms. If you don't
+agree, don't install or use it. If you accept for a company or other
+organization, you confirm you may do so for it, and "you" includes it.
+
+2. What you may do
+------------------
+
+We give you a free, non-exclusive, non-transferable license to install and use
+ucopy, on any number of computers and phones you own or control, for personal
+or business use.
+
+You may make copies of the installer and the phone app for your own
+installations and as backups. You may use ucopy to recover, copy and back up
+data for other people, including as a paid service, as long as the software
+itself isn't sold or handed over to them (section 3).
+
+We keep ownership of ucopy and all rights not expressly given here. This
+agreement licenses ucopy; it doesn't sell it.
+
+3. What you may not do
+----------------------
+
+Unless the law where you live allows it regardless of this agreement, you may
+not:
+
+  1. sell, rent, lease or sublicense ucopy, or charge for it;
+  2. pass ucopy on to others except by pointing them to our official download
+     page;
+  3. change ucopy, or share changed copies;
+  4. reverse engineer, decompile or disassemble ucopy;
+  5. remove or change its copyright, license or other notices;
+  6. get around any license key or check that controls paid features (section
+     7);
+  7. use ucopy to get at data or devices you have no right to access.
+
+4. Your data: back up first
+---------------------------
+
+ucopy works with failing and damaged drives, and with your files and backups.
+Please read this before you rely on it.
+
+  - It may not recover everything. A failing drive can lose more data, or stop
+    working, while it's being read. ucopy can't promise to recover any
+    particular file or any amount of data.
+  - Moving deletes the originals. ucopy deletes each original only after its
+    copy is complete and checked, but a deleted original can't be brought back
+    by ucopy.
+  - Keep more than one backup. Don't keep your only copy of anything important
+    in one ucopy backup, or on one drive.
+  - Keep your passwords and recovery sheets. A locked backup can't be opened
+    without its password or recovery sheet. We can't open it for you, and we
+    can't recover a lost password.
+  - You're responsible for your data, for choosing what ucopy does to it, and
+    for checking the results.
+
+5. No warranty
+--------------
+
+UCOPY IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND. TO
+THE FULLEST EXTENT THE LAW ALLOWS, WE DISCLAIM ALL WARRANTIES, WHETHER
+EXPRESS, IMPLIED OR STATUTORY, INCLUDING WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT, AND ANY WARRANTY
+THAT UCOPY WILL RECOVER DATA, WORK WITHOUT ERRORS OR INTERRUPTION, OR KEEP
+YOUR DATA SAFE.
+
+Some places don't allow these exclusions, so some of them may not apply to
+you. Where a warranty can't be excluded, it lasts only as long as the law
+requires.
+
+6. Limitation of liability
+--------------------------
+
+TO THE FULLEST EXTENT THE LAW ALLOWS, WE ARE NOT LIABLE FOR ANY LOSS OR
+CORRUPTION OF DATA, DAMAGE TO DRIVES OR DEVICES, LOST PROFITS OR BUSINESS, OR
+ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, ARISING
+FROM YOUR USE OF UCOPY OR YOUR INABILITY TO USE IT, EVEN IF WE WERE TOLD SUCH
+DAMAGES WERE POSSIBLE.
+
+OUR TOTAL LIABILITY FOR ALL CLAIMS ABOUT UCOPY IS LIMITED TO THE AMOUNT YOU
+PAID US FOR UCOPY IN THE 12 MONTHS BEFORE THE CLAIM. FOR THE FREE EDITION,
+THAT AMOUNT IS ZERO.
+
+Nothing in this agreement limits liability that the law doesn't allow to be
+limited, such as for fraud, or for death or personal injury caused by
+negligence.
+
+7. Updates and paid editions
+----------------------------
+
+Updates. ucopy looks for newer versions and offers them; you choose whether to
+install them. An update is covered by this agreement unless it comes with
+different terms, which you'll be shown first.
+
+Paid editions. We may offer paid features or a paid edition later. Those come
+with their own purchase terms (price, how many devices, subscription or
+one-time payment, refunds), which add to this agreement. Using them may also
+require an account with another company's service, and accepting that
+service's own terms.
+
+The free edition stays free. Features already in the free edition don't become
+paid for the versions you already have. We may change what later versions
+include.
+
+8. Privacy
+----------
+
+ucopy doesn't send us your files, file names, or information about how you use
+it. It has no usage tracking and no account with us. It connects to the
+network only for these:
+
+  - Updates: it reads the list of versions from GitHub, and downloads an
+    update from there when you choose to install it.
+  - Your phone: the desktop and phone apps find each other and talk directly
+    over your local network, encrypted, once you've paired them.
+  - Places you choose: network shares you back up to, and the email server or
+    alert services (such as ntfy, Slack or Discord) you set up for alerts.
+
+Those services have their own terms and privacy policies. A paid feature that
+connects to an online service would send your data to the service you choose;
+its terms will say how.
+
+9. Third-party software
+-----------------------
+
+ucopy includes open-source software made by others. Each piece is licensed
+under its own terms (mostly the MIT and Apache 2.0 licenses, and also BSD,
+ISC, Zlib, Unicode, the SIL Open Font License and the Ubuntu Font Licence).
+Their notices and license texts are in the file THIRD-PARTY-NOTICES.txt,
+installed with ucopy, and shown in the desktop app under About and in the
+phone app's settings.
+
+For those components, their own licenses apply instead of this agreement
+wherever the two differ. Nothing here limits the rights those licenses give
+you.
+
+10. General terms
+-----------------
+
+Ending. You may stop using ucopy at any time by uninstalling it. Your license
+ends by itself if you break this agreement; you must then stop using ucopy and
+delete your copies. Sections 4 to 6 and 9 to 10 still apply after it ends.
+Your backups stay yours: you may keep and open them.
+
+Changes. We may change these terms for later versions. A version you already
+have stays under the terms it came with.
+
+Law. This agreement is governed by the laws of the State of Oklahoma, United
+States of America, without regard to its conflict-of-law rules. Disputes go to
+the state or federal courts located in Oklahoma, unless the law where you live
+says otherwise.
+
+Whole agreement. This is the whole agreement about ucopy, together with any
+purchase terms under section 7. If a part can't be enforced, the rest still
+applies. Not enforcing a term isn't giving it up. You may not transfer this
+agreement; we may, to a successor.
+
+Contact. ucopy-spambox@outlook.com, or open a support ticket at
+https://github.com/MeatOfTheMoment/ucopy-releases/issues.
