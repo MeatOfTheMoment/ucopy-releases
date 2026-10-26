@@ -17,11 +17,11 @@
     "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.1"
   },
   "macos": {
-    "version": "0.18.0",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.0/ucopy-0.18.0.dmg",
-    "sha256": "677d7279db377d7d83d1eceeed53b24cb62bdd705cd7386de879788c10a3e339",
-    "signature": "03671f49ff3aa4d5662ba1f4d5f0d7eeb796faa25090b96cf070250e902f4cb517e70b0ae7e6fe60a9fb2a85e71957f10f4245bc47416e670cd4495605034a0b",
-    "notes": "- Copy or move: the copy steps ask \"What do you want to copy from?\" and \"Where do you want to copy to?\", then whether to copy or move, saying plainly what each does, then Review your settings.\n- Choose files and folders together, from several places at once, with ucopy's own chooser. Files and folders dragged onto the window are added too.\n- Schedule a backup (was Back up regularly): every few hours as well as daily and weekly, and a weekly backup can pick its day.\n- Change a backup from its card on the home page: what, where to, when and its password, a step at a time. Or delete it, keeping the backups made.\n- Back up my phone to this computer: get the phone app, pair it and choose this computer, from the home page. Paired phones show under Your backups.\n- The phone app has no changes of its own in this version.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.0"
+    "version": "0.18.1",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.1/ucopy-0.18.1.dmg",
+    "sha256": "266f4c2c79ade16ed3360c5d8bd2c93b1bcf21d71285d35ba59c40e8790da8b3",
+    "signature": "f2b29cbacd937e7a13a61efe1af6a2891238bb03499a2b539d9c535239112e175720db74f5e6a2999e1a8adab912327a7fd78426b967ae6eb17e167003a72d0b",
+    "notes": "- ucopy now has a license agreement: it's free to use, at home and at work. The installer asks you to accept it, and it's in About (click the version at the bottom of the window, or Settings \u2192 Updates).\n- About also lists the open-source software ucopy is built with, and their licenses.\n- The phone app has About ucopy in its menu, with the same agreement and notices.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.1"
   }
 }
