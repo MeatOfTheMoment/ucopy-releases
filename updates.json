@@ -1,20 +1,20 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.18.0",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.0/ucopy-setup.exe",
-    "sha256": "44b4ed9385a36fe579f9157d7188569c23bc39a5dc3cc598a002282472a79235",
-    "signature": "7a3a94cc0335be64236497626561e1c4b240780d182f6190ca72186ed05e479b2bab1b15bd88e5e94f5cb7b995a44b9f3023bf9e8581e213b8dd6ca4c18d7202",
-    "notes": "- Copy or move: the copy steps ask \"What do you want to copy from?\" and \"Where do you want to copy to?\", then whether to copy or move, saying plainly what each does, then Review your settings.\n- Choose files and folders together, from several places at once, with ucopy's own chooser. Files and folders dragged onto the window are added too.\n- Schedule a backup (was Back up regularly): every few hours as well as daily and weekly, and a weekly backup can pick its day.\n- Change a backup from its card on the home page: what, where to, when and its password, a step at a time. Or delete it, keeping the backups made.\n- Back up my phone to this computer: get the phone app, pair it and choose this computer, from the home page. Paired phones show under Your backups.\n- The phone app has no changes of its own in this version.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.0"
+    "version": "0.18.1",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.1/ucopy-setup.exe",
+    "sha256": "37ddfb126dafb0c6d755a02db2a4291498f81b094217097eccf32a8013255041",
+    "signature": "8eeb9186cdad5c23f063fef7afa8678bfa0d3061b92f44203ac1122ef555a8bb36776e9285b9f5ab59ed66263cb6b794402a5a4f289bcb0cf97987e56486410e",
+    "notes": "- ucopy now has a license agreement: it's free to use, at home and at work. The installer asks you to accept it, and it's in About (click the version at the bottom of the window, or Settings \u2192 Updates).\n- About also lists the open-source software ucopy is built with, and their licenses.\n- The phone app has About ucopy in its menu, with the same agreement and notices.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.1"
   },
   "android": {
-    "version": "0.18.0",
-    "code": 46,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.0/ucopy-0.18.0.apk",
-    "sha256": "45f96a10e2cc7fba19f04d9cd5b5d2bb7c90a4d4cce9461d322e78e7bdaa81a3",
-    "notes": "- Copy or move: the copy steps ask \"What do you want to copy from?\" and \"Where do you want to copy to?\", then whether to copy or move, saying plainly what each does, then Review your settings.\n- Choose files and folders together, from several places at once, with ucopy's own chooser. Files and folders dragged onto the window are added too.\n- Schedule a backup (was Back up regularly): every few hours as well as daily and weekly, and a weekly backup can pick its day.\n- Change a backup from its card on the home page: what, where to, when and its password, a step at a time. Or delete it, keeping the backups made.\n- Back up my phone to this computer: get the phone app, pair it and choose this computer, from the home page. Paired phones show under Your backups.\n- The phone app has no changes of its own in this version.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.0"
+    "version": "0.18.1",
+    "code": 47,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.1/ucopy-0.18.1.apk",
+    "sha256": "ffe66c6e4a7922cc81e4cbce8725b43239af5154989cfbdb4dea7092b08c8f13",
+    "notes": "- ucopy now has a license agreement: it's free to use, at home and at work. The installer asks you to accept it, and it's in About (click the version at the bottom of the window, or Settings \u2192 Updates).\n- About also lists the open-source software ucopy is built with, and their licenses.\n- The phone app has About ucopy in its menu, with the same agreement and notices.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.1"
   },
   "macos": {
     "version": "0.18.0",
