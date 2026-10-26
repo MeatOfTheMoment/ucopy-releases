@@ -17,11 +17,11 @@
     "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.0"
   },
   "macos": {
-    "version": "0.17.0",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.17.0/ucopy-0.17.0.dmg",
-    "sha256": "5dcc6b82fcc9a3ab23a2ab59d87edb322d48c041f2f6146d5bc71a46dd749003",
-    "signature": "09f92713215343bb6b0f56ea6f2d01f8a77c696eb3c9f3f80470eef6e6c9658549b7ecf0097fec4c4e9696007bddd5283604c9528e7ef7b7e19dbc7890f2f105",
-    "notes": "- A new Simple view, where ucopy now opens: it asks what you want to do and walks you through it a step at a time. Rescue files from a failing drive, back up regularly, image a whole disk, or copy and move files. The full window is one click away under Advanced, at the top.\n- The home page shows each backup with whether it's up to date, with Back up now and Get files back.\n- Backups no longer stop on the hidden \"My Music\", \"My Pictures\" and \"My Videos\" shortcuts Windows keeps in Documents.\n- Explorer's ucopy menu: Image on a drive now chooses that drive, and Copy, Back up and Image open their steps.\n- Windows: the installer shows its progress.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.17.0"
+    "version": "0.18.0",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.0/ucopy-0.18.0.dmg",
+    "sha256": "677d7279db377d7d83d1eceeed53b24cb62bdd705cd7386de879788c10a3e339",
+    "signature": "03671f49ff3aa4d5662ba1f4d5f0d7eeb796faa25090b96cf070250e902f4cb517e70b0ae7e6fe60a9fb2a85e71957f10f4245bc47416e670cd4495605034a0b",
+    "notes": "- Copy or move: the copy steps ask \"What do you want to copy from?\" and \"Where do you want to copy to?\", then whether to copy or move, saying plainly what each does, then Review your settings.\n- Choose files and folders together, from several places at once, with ucopy's own chooser. Files and folders dragged onto the window are added too.\n- Schedule a backup (was Back up regularly): every few hours as well as daily and weekly, and a weekly backup can pick its day.\n- Change a backup from its card on the home page: what, where to, when and its password, a step at a time. Or delete it, keeping the backups made.\n- Back up my phone to this computer: get the phone app, pair it and choose this computer, from the home page. Paired phones show under Your backups.\n- The phone app has no changes of its own in this version.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.0"
   }
 }
