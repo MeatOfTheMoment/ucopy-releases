@@ -17,11 +17,11 @@
     "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.2"
   },
   "macos": {
-    "version": "0.18.1",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.1/ucopy-0.18.1.dmg",
-    "sha256": "266f4c2c79ade16ed3360c5d8bd2c93b1bcf21d71285d35ba59c40e8790da8b3",
-    "signature": "f2b29cbacd937e7a13a61efe1af6a2891238bb03499a2b539d9c535239112e175720db74f5e6a2999e1a8adab912327a7fd78426b967ae6eb17e167003a72d0b",
-    "notes": "- ucopy now has a license agreement: it's free to use, at home and at work. The installer asks you to accept it, and it's in About (click the version at the bottom of the window, or Settings \u2192 Updates).\n- About also lists the open-source software ucopy is built with, and their licenses.\n- The phone app has About ucopy in its menu, with the same agreement and notices.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.1"
+    "version": "0.18.2",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.2/ucopy-0.18.2.dmg",
+    "sha256": "4d5fa59c258ed81d0e0f2b4027cbb229d68303a52f37283f891a7ddbbc8f8610",
+    "signature": "7be22d0ce22aa5b58293d8703698dfa05e2920dea21229b54324ccd98bbdf1ee5f201748ff04fefd529a4a2636b258476a9985c11607b33371f128e9992dce03",
+    "notes": "- Fixed: the installer's \"I accept the license agreement\" box couldn't be ticked, so 0.18.1 couldn't be installed on Windows.\n- The phone app and the Mac have no changes of their own in this version.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.2"
   }
 }
