@@ -1,20 +1,20 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.18.2",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.2/ucopy-setup.exe",
-    "sha256": "7cfd823ef228cca642cae623195174a86b1e5489c1e3055f98d73e327cb74b85",
-    "signature": "47a727ad2e40f9429377fe60a82ef21253f569017f0a4c3b927395904b8f511bb1646d78944535289fcc8924cd7f2d5708a61e260e7b681d6853821c4d1c5804",
-    "notes": "- Fixed: the installer's \"I accept the license agreement\" box couldn't be ticked, so 0.18.1 couldn't be installed on Windows.\n- The phone app and the Mac have no changes of their own in this version.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.2"
+    "version": "0.18.3",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.3/ucopy-setup.exe",
+    "sha256": "0e08368fbf32c350b59cd25f25dd49ee17d0349252bfcd8830cda40f5817e4b2",
+    "signature": "5bd647105afad7c7bd3f9f36b9386e0f79f6711e4a95579e6b3a1908b616cf7d4f1bc6ef7d5925edbdf39263878222dab682e75cf254463f661b9b37ac372e05",
+    "notes": "Security fixes from a review of ucopy. Updating is recommended.\n- Backups: names, paths and links in a backup folder can no longer lead a restore outside it, and a restore replaces a file already there only with a copy that matches the backup's list.\n- Windows: jobs that run as SYSTEM start only programs that only administrators can change, the installer installs only into Program Files and loads Windows' own DLLs, and updating or uninstalling removes only ucopy's own firewall rules.\n- Disk images: an incremental image's parent is read only from the same folder.\n- Phones: pairing stops after 5 wrong codes, each phone's backups go to its own folder, and file names from the phone stay inside the folder you chose.\n- Updates are downloaded over secure connections only.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.3"
   },
   "android": {
-    "version": "0.18.2",
-    "code": 48,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.2/ucopy-0.18.2.apk",
-    "sha256": "4f8caaff36b7a3cac89670c7d6c061c6feedd2d3b18714a70dcb7093be6ed9c6",
-    "notes": "- Fixed: the installer's \"I accept the license agreement\" box couldn't be ticked, so 0.18.1 couldn't be installed on Windows.\n- The phone app and the Mac have no changes of their own in this version.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.2"
+    "version": "0.18.3",
+    "code": 49,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.3/ucopy-0.18.3.apk",
+    "sha256": "e4db3bddb5f50c50aa82376d2a750cbbe28c48c2475ba2d83f706906ea07df78",
+    "notes": "Security fixes from a review of ucopy. Updating is recommended.\n- Backups: names, paths and links in a backup folder can no longer lead a restore outside it, and a restore replaces a file already there only with a copy that matches the backup's list.\n- Windows: jobs that run as SYSTEM start only programs that only administrators can change, the installer installs only into Program Files and loads Windows' own DLLs, and updating or uninstalling removes only ucopy's own firewall rules.\n- Disk images: an incremental image's parent is read only from the same folder.\n- Phones: pairing stops after 5 wrong codes, each phone's backups go to its own folder, and file names from the phone stay inside the folder you chose.\n- Updates are downloaded over secure connections only.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.3"
   },
   "macos": {
     "version": "0.18.2",
