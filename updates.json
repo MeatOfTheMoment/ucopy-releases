@@ -1,20 +1,20 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.18.3",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.3/ucopy-setup.exe",
-    "sha256": "0e08368fbf32c350b59cd25f25dd49ee17d0349252bfcd8830cda40f5817e4b2",
-    "signature": "5bd647105afad7c7bd3f9f36b9386e0f79f6711e4a95579e6b3a1908b616cf7d4f1bc6ef7d5925edbdf39263878222dab682e75cf254463f661b9b37ac372e05",
-    "notes": "Security fixes from a review of ucopy. Updating is recommended.\n- Backups: names, paths and links in a backup folder can no longer lead a restore outside it, and a restore replaces a file already there only with a copy that matches the backup's list.\n- Windows: jobs that run as SYSTEM start only programs that only administrators can change, the installer installs only into Program Files and loads Windows' own DLLs, and updating or uninstalling removes only ucopy's own firewall rules.\n- Disk images: an incremental image's parent is read only from the same folder.\n- Phones: pairing stops after 5 wrong codes, each phone's backups go to its own folder, and file names from the phone stay inside the folder you chose.\n- Updates are downloaded over secure connections only.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.3"
+    "version": "0.18.4",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.4/ucopy-setup.exe",
+    "sha256": "9e9d9e20f6fd5e8475ba8c169990098619f0d73a26fcb6aaf0a2e6ced9ec68a6",
+    "signature": "7b128741b5c61e9c0e882979a604774679b451337d08c4f059213e34001fa626baf77434aca386d1299ba5a3f0cc1a3497874fae0ad5c59841a1382fefd1b20f",
+    "notes": "Security fixes for Show my files on the phone. Updating is recommended.\n- Only ucopy's own notification opens the screen that shows your files to a computer; another app can no longer open it for you.\n- A computer sees only the folders you share: hidden files and folders are refused, and files it sends are never written through a link.\n- What a computer asks for is kept within limits, and a request that fails badly no longer breaks the connection.\n- The phone now looks for updates each time ucopy is opened, at most once an hour.\n- The screen now says that unencrypted backups on a USB drive or SD card in the phone are shown too.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.4"
   },
   "android": {
-    "version": "0.18.3",
-    "code": 49,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.3/ucopy-0.18.3.apk",
-    "sha256": "e4db3bddb5f50c50aa82376d2a750cbbe28c48c2475ba2d83f706906ea07df78",
-    "notes": "Security fixes from a review of ucopy. Updating is recommended.\n- Backups: names, paths and links in a backup folder can no longer lead a restore outside it, and a restore replaces a file already there only with a copy that matches the backup's list.\n- Windows: jobs that run as SYSTEM start only programs that only administrators can change, the installer installs only into Program Files and loads Windows' own DLLs, and updating or uninstalling removes only ucopy's own firewall rules.\n- Disk images: an incremental image's parent is read only from the same folder.\n- Phones: pairing stops after 5 wrong codes, each phone's backups go to its own folder, and file names from the phone stay inside the folder you chose.\n- Updates are downloaded over secure connections only.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.3"
+    "version": "0.18.4",
+    "code": 50,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.4/ucopy-0.18.4.apk",
+    "sha256": "f812a78daf1a2593553602981b5c608809baab9d2f6f9557b0d710b001cce6bc",
+    "notes": "Security fixes for Show my files on the phone. Updating is recommended.\n- Only ucopy's own notification opens the screen that shows your files to a computer; another app can no longer open it for you.\n- A computer sees only the folders you share: hidden files and folders are refused, and files it sends are never written through a link.\n- What a computer asks for is kept within limits, and a request that fails badly no longer breaks the connection.\n- The phone now looks for updates each time ucopy is opened, at most once an hour.\n- The screen now says that unencrypted backups on a USB drive or SD card in the phone are shown too.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.4"
   },
   "macos": {
     "version": "0.18.2",
