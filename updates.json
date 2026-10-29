@@ -17,11 +17,11 @@
     "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.5"
   },
   "macos": {
-    "version": "0.18.4",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.4/ucopy-0.18.4.dmg",
-    "sha256": "062250ed7cc48879dc82bb25d628b3c01199774dfbb3ef6346cace23d52d3231",
-    "signature": "2604d5bfa03f68b0b7217f47959e2a50ea0deec7891beb98816912bd8a214b9fa3ae3adae46565729d910d8c3fc920daa136fa4312aa591fa1561ca5b4a1e200",
-    "notes": "Security fixes for Show my files on the phone. Updating is recommended.\n- Only ucopy's own notification opens the screen that shows your files to a computer; another app can no longer open it for you.\n- A computer sees only the folders you share: hidden files and folders are refused, and files it sends are never written through a link.\n- What a computer asks for is kept within limits, and a request that fails badly no longer breaks the connection.\n- The phone now looks for updates each time ucopy is opened, at most once an hour.\n- The screen now says that unencrypted backups on a USB drive or SD card in the phone are shown too.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.4"
+    "version": "0.18.5",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.5/ucopy-0.18.5.dmg",
+    "sha256": "8db0d72a9c0a3fb2be67a65743fb9162949eadf4c3d15c820c05f20d0fe096cd",
+    "signature": "2eee30d6a31a44a432fabcb02a8c20dad7c33f63639e9c02f825f2c67f392d3af84fa25b901fc3ec96bafb5e1c9fdf8ad62663f966c1c9eea323b1bf53166d06",
+    "notes": "Fixes for backups and pairing. Updating is recommended.\n- Two files whose names differ only in capital letters (IMG_1.JPG and img_1.jpg) each keep their own copy in a backup to Windows, a Mac, a share or a USB drive; before, one could replace the other. Names Windows can't hold are kept too, and restores give every file its own name back.\n- Backups to a Windows computer refuse names Windows keeps for devices (such as \"nul\"), which lost the file.\n- A backup to a computer no longer misses a write the computer refused.\n- Deleting old backups on a share never follows a link out of the backup folder.\n- A share that reports a wrong file size can no longer crash the app.\n- The phone keeps a computer's new network address only once it has proven to be that computer.\n- Names from the other side are cleaned up and kept short, and a pairing attempt that fails badly no longer blocks pairing.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.5"
   }
 }
