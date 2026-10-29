@@ -17,11 +17,11 @@
     "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.4"
   },
   "macos": {
-    "version": "0.18.2",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.2/ucopy-0.18.2.dmg",
-    "sha256": "4d5fa59c258ed81d0e0f2b4027cbb229d68303a52f37283f891a7ddbbc8f8610",
-    "signature": "7be22d0ce22aa5b58293d8703698dfa05e2920dea21229b54324ccd98bbdf1ee5f201748ff04fefd529a4a2636b258476a9985c11607b33371f128e9992dce03",
-    "notes": "- Fixed: the installer's \"I accept the license agreement\" box couldn't be ticked, so 0.18.1 couldn't be installed on Windows.\n- The phone app and the Mac have no changes of their own in this version.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.2"
+    "version": "0.18.4",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.4/ucopy-0.18.4.dmg",
+    "sha256": "062250ed7cc48879dc82bb25d628b3c01199774dfbb3ef6346cace23d52d3231",
+    "signature": "2604d5bfa03f68b0b7217f47959e2a50ea0deec7891beb98816912bd8a214b9fa3ae3adae46565729d910d8c3fc920daa136fa4312aa591fa1561ca5b4a1e200",
+    "notes": "Security fixes for Show my files on the phone. Updating is recommended.\n- Only ucopy's own notification opens the screen that shows your files to a computer; another app can no longer open it for you.\n- A computer sees only the folders you share: hidden files and folders are refused, and files it sends are never written through a link.\n- What a computer asks for is kept within limits, and a request that fails badly no longer breaks the connection.\n- The phone now looks for updates each time ucopy is opened, at most once an hour.\n- The screen now says that unencrypted backups on a USB drive or SD card in the phone are shown too.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.4"
   }
 }
