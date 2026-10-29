@@ -1,20 +1,20 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.18.6",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.6/ucopy-setup.exe",
-    "sha256": "2048e55d265e8355455f6ae561b93c4ac619739d2021a05871a622eea23f3589",
-    "signature": "0ed198d824233fe40eb4a6cff28403f9b5bf7da4101adda7c6b1c8ba39bdef88ac6d3f55ea5cb68c7ce2ddee042d30c08788ec42164e422fa947960b76c73101",
-    "notes": "Fixes for copying and recovery. Updating is recommended.\n- A copy carried on after a crash or a power cut no longer trusts data that never reached the target drive: it's read again, instead of the file being reported intact with gaps.\n- Likewise after the target drive was pulled out and put back during a copy.\n- A file changed while it waited for deeper recovery is copied again, so Move never deletes the only newer version.\n- A link someone placed in the target folder is never written through to the file it leads to.\n- Opening a file or folder from the window works for names with #, ? or %.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.6"
+    "version": "0.18.7",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.7/ucopy-setup.exe",
+    "sha256": "bfe8ae92ea4bc8d987ba5f47e03a4a5baba51a606a48d00f8b661bf5708b843d",
+    "signature": "37d4f8c8fcd44b55f8448611c9b71e57264d1e7ac40314cee19a990da48d323bb7c1cda99868c3abd264e0dd3058a8c739c237ec44fa320393cf6eb9d2d06c06",
+    "notes": "Fixes for disk images.\n- An image of a disk that was interrupted now carries on where it stopped, instead of reading the whole disk again (which wears a failing disk). It first checks a few sectors, so another disk at the same place, or an image damaged since, is imaged again.\n- An image that can't be opened is never carried on in a new, empty file.\n- Image a disk: the snapshot option now says that free space isn't read.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.7"
   },
   "android": {
-    "version": "0.18.6",
-    "code": 52,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.6/ucopy-0.18.6.apk",
-    "sha256": "f00a5d2e381c38511aa558b455188d1e2c1eb3f3ca3e9d94c6cdd649a1601c37",
-    "notes": "Fixes for copying and recovery. Updating is recommended.\n- A copy carried on after a crash or a power cut no longer trusts data that never reached the target drive: it's read again, instead of the file being reported intact with gaps.\n- Likewise after the target drive was pulled out and put back during a copy.\n- A file changed while it waited for deeper recovery is copied again, so Move never deletes the only newer version.\n- A link someone placed in the target folder is never written through to the file it leads to.\n- Opening a file or folder from the window works for names with #, ? or %.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.6"
+    "version": "0.18.7",
+    "code": 53,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.7/ucopy-0.18.7.apk",
+    "sha256": "f9cc4f29ff176828abf76acf987c60c809b2495d2e615902a8307bc711666ab1",
+    "notes": "Fixes for disk images.\n- An image of a disk that was interrupted now carries on where it stopped, instead of reading the whole disk again (which wears a failing disk). It first checks a few sectors, so another disk at the same place, or an image damaged since, is imaged again.\n- An image that can't be opened is never carried on in a new, empty file.\n- Image a disk: the snapshot option now says that free space isn't read.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.7"
   },
   "macos": {
     "version": "0.18.6",
