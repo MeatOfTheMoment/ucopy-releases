@@ -1,20 +1,20 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.18.10",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.10/ucopy-setup.exe",
-    "sha256": "f9765a9c07f15ec4a5ea1fb621618493fe1f4bcfe119a69d41ab827a1f938b38",
-    "signature": "8ffa58a149e23c3f360269a9b8bb93ee05758d2d01d2c47dc1bb8626d836bcd850fe7f4e86be4af285e4cfcca01cc2bd38ad5ad0b83c9a867580c258728e7d0b",
-    "notes": "Security fixes. Updating is recommended.\n- A backup job run by the system (as SYSTEM or root) always starts the copy of ucopy that was checked as safe, never one reached through a link that could be changed afterwards.\n- Files copied off a phone onto the clipboard wait among your own files, not in Linux's shared temporary folder.\n- A phone listing a folder inside itself, or sending an oversized thumbnail, can no longer crash the window.\n- Linux: starting at sign-in works when ucopy is in a folder whose name has quotes or $, and disks under an encrypted volume or LVM show where they're mounted.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.10"
+    "version": "0.18.11",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.11/ucopy-setup.exe",
+    "sha256": "0b0ffdc049f6b6b913a3a74283cac06dd204256c9d075582ba494b0ea232a0c5",
+    "signature": "f7e21a0875c4ca94141dc6063efe7c316a7ace92445cc5b97270483869745e6e5f9c8b3bc8add5a325aba0fa80f23c59e4c61f9f197f830a8bd342507d7cae0d",
+    "notes": "Security fixes. Updating is recommended.\n- Alert email addresses and push links of backup jobs run by the system (as SYSTEM or root) are kept where only administrators can read them, no longer in the job files every user can read.\n- Phone: ucopy's own files (pairing keys, share logins, signing keys, copies of messages and contacts) no longer leave the phone through Android's backup or a transfer to a new phone. On a new phone, set ucopy up again; your backups still open with their password.\n- Phone: other apps can no longer make ucopy ask about backing up to a drive, or act as if a drive was plugged in.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.11"
   },
   "android": {
-    "version": "0.18.10",
-    "code": 56,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.10/ucopy-0.18.10.apk",
-    "sha256": "ff3fd035b510750b3f9632b5cce98ec86fe04e9520877a082702b2540d0a736c",
-    "notes": "Security fixes. Updating is recommended.\n- A backup job run by the system (as SYSTEM or root) always starts the copy of ucopy that was checked as safe, never one reached through a link that could be changed afterwards.\n- Files copied off a phone onto the clipboard wait among your own files, not in Linux's shared temporary folder.\n- A phone listing a folder inside itself, or sending an oversized thumbnail, can no longer crash the window.\n- Linux: starting at sign-in works when ucopy is in a folder whose name has quotes or $, and disks under an encrypted volume or LVM show where they're mounted.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.10"
+    "version": "0.18.11",
+    "code": 57,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.11/ucopy-0.18.11.apk",
+    "sha256": "03cc1bc5a803924e2956c2e295413ce80591e8f179757b376bd53e922518cc3a",
+    "notes": "Security fixes. Updating is recommended.\n- Alert email addresses and push links of backup jobs run by the system (as SYSTEM or root) are kept where only administrators can read them, no longer in the job files every user can read.\n- Phone: ucopy's own files (pairing keys, share logins, signing keys, copies of messages and contacts) no longer leave the phone through Android's backup or a transfer to a new phone. On a new phone, set ucopy up again; your backups still open with their password.\n- Phone: other apps can no longer make ucopy ask about backing up to a drive, or act as if a drive was plugged in.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.11"
   },
   "macos": {
     "version": "0.18.7",
