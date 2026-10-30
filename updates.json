@@ -1,20 +1,20 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.18.9",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.9/ucopy-setup.exe",
-    "sha256": "11bacca4af4167cfab7eebeda8937c6276bed4c2767e61a49a2727c36727c514",
-    "signature": "8d813a54f88cbc8dda76dcf27d7d8e2407861e3f149bfe8d9ce036be27ad6ed499640bc76632e9d05e50200117b1e031ec07b92e86ee2ef92b93dc16be911602",
-    "notes": "Fixes for encrypted backups. Updating is recommended.\n- An encrypted copy of a damaged file no longer encrypts two different contents the same way at the same place in the file, which could reveal part of the recovered data. Copies carried on from earlier versions are encrypted again where needed.\n- Backups protected with a key pair are now signed: a restore or check refuses a set that was changed by someone without your key. A job starts signing after you unlock it once with its password; older sets restore with an \"unsigned\" warning.\n- A restore never writes through a link it restored earlier in the same run.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.9"
+    "version": "0.18.10",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.10/ucopy-setup.exe",
+    "sha256": "f9765a9c07f15ec4a5ea1fb621618493fe1f4bcfe119a69d41ab827a1f938b38",
+    "signature": "8ffa58a149e23c3f360269a9b8bb93ee05758d2d01d2c47dc1bb8626d836bcd850fe7f4e86be4af285e4cfcca01cc2bd38ad5ad0b83c9a867580c258728e7d0b",
+    "notes": "Security fixes. Updating is recommended.\n- A backup job run by the system (as SYSTEM or root) always starts the copy of ucopy that was checked as safe, never one reached through a link that could be changed afterwards.\n- Files copied off a phone onto the clipboard wait among your own files, not in Linux's shared temporary folder.\n- A phone listing a folder inside itself, or sending an oversized thumbnail, can no longer crash the window.\n- Linux: starting at sign-in works when ucopy is in a folder whose name has quotes or $, and disks under an encrypted volume or LVM show where they're mounted.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.10"
   },
   "android": {
-    "version": "0.18.9",
-    "code": 55,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.9/ucopy-0.18.9.apk",
-    "sha256": "6b659a4c5200111f3347c84d65deb5f103d838226245a2d4f8c0264334c9c33c",
-    "notes": "Fixes for encrypted backups. Updating is recommended.\n- An encrypted copy of a damaged file no longer encrypts two different contents the same way at the same place in the file, which could reveal part of the recovered data. Copies carried on from earlier versions are encrypted again where needed.\n- Backups protected with a key pair are now signed: a restore or check refuses a set that was changed by someone without your key. A job starts signing after you unlock it once with its password; older sets restore with an \"unsigned\" warning.\n- A restore never writes through a link it restored earlier in the same run.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.9"
+    "version": "0.18.10",
+    "code": 56,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.10/ucopy-0.18.10.apk",
+    "sha256": "ff3fd035b510750b3f9632b5cce98ec86fe04e9520877a082702b2540d0a736c",
+    "notes": "Security fixes. Updating is recommended.\n- A backup job run by the system (as SYSTEM or root) always starts the copy of ucopy that was checked as safe, never one reached through a link that could be changed afterwards.\n- Files copied off a phone onto the clipboard wait among your own files, not in Linux's shared temporary folder.\n- A phone listing a folder inside itself, or sending an oversized thumbnail, can no longer crash the window.\n- Linux: starting at sign-in works when ucopy is in a folder whose name has quotes or $, and disks under an encrypted volume or LVM show where they're mounted.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.10"
   },
   "macos": {
     "version": "0.18.7",
