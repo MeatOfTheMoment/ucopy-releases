@@ -1,20 +1,20 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.18.8",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.8/ucopy-setup.exe",
-    "sha256": "3bada3d260db9d8c8406b07c3dc6ef22bb2af910cb61176f7528f3d5c89396bf",
-    "signature": "2803709cc71b5025a6753f96581b45304977d8040c6598da154e4108985a19b0d60b9f6e406326d05c9ce1a7ae023101fddf39c525229fb98c7fd2c16c995609",
-    "notes": "Safer handling of file names in what ucopy writes and sends.\n- Discord and Slack alerts no longer ping anyone: a file named @everyone or <!channel> is shown as text.\n- Line breaks and terminal codes in file names are shown as escapes (\\n, \\x1b) in logs, reports, alerts and the command line, so a name can't fake a log line or affect a terminal.\n- Opening a folder from ucopy only ever opens a folder.\n- Choosing ucopy in Explorer's menu while a job runs no longer drops an earlier request.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.8"
+    "version": "0.18.9",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.9/ucopy-setup.exe",
+    "sha256": "11bacca4af4167cfab7eebeda8937c6276bed4c2767e61a49a2727c36727c514",
+    "signature": "8d813a54f88cbc8dda76dcf27d7d8e2407861e3f149bfe8d9ce036be27ad6ed499640bc76632e9d05e50200117b1e031ec07b92e86ee2ef92b93dc16be911602",
+    "notes": "Fixes for encrypted backups. Updating is recommended.\n- An encrypted copy of a damaged file no longer encrypts two different contents the same way at the same place in the file, which could reveal part of the recovered data. Copies carried on from earlier versions are encrypted again where needed.\n- Backups protected with a key pair are now signed: a restore or check refuses a set that was changed by someone without your key. A job starts signing after you unlock it once with its password; older sets restore with an \"unsigned\" warning.\n- A restore never writes through a link it restored earlier in the same run.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.9"
   },
   "android": {
-    "version": "0.18.8",
-    "code": 54,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.8/ucopy-0.18.8.apk",
-    "sha256": "ecfb7b4e42cc1f49e2551923b328f0fcb02d80601b424c6f957b5d01fcb1b08c",
-    "notes": "Safer handling of file names in what ucopy writes and sends.\n- Discord and Slack alerts no longer ping anyone: a file named @everyone or <!channel> is shown as text.\n- Line breaks and terminal codes in file names are shown as escapes (\\n, \\x1b) in logs, reports, alerts and the command line, so a name can't fake a log line or affect a terminal.\n- Opening a folder from ucopy only ever opens a folder.\n- Choosing ucopy in Explorer's menu while a job runs no longer drops an earlier request.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.8"
+    "version": "0.18.9",
+    "code": 55,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.9/ucopy-0.18.9.apk",
+    "sha256": "6b659a4c5200111f3347c84d65deb5f103d838226245a2d4f8c0264334c9c33c",
+    "notes": "Fixes for encrypted backups. Updating is recommended.\n- An encrypted copy of a damaged file no longer encrypts two different contents the same way at the same place in the file, which could reveal part of the recovered data. Copies carried on from earlier versions are encrypted again where needed.\n- Backups protected with a key pair are now signed: a restore or check refuses a set that was changed by someone without your key. A job starts signing after you unlock it once with its password; older sets restore with an \"unsigned\" warning.\n- A restore never writes through a link it restored earlier in the same run.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.9"
   },
   "macos": {
     "version": "0.18.7",
