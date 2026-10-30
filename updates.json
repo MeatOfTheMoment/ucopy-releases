@@ -1,20 +1,20 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.18.7",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.7/ucopy-setup.exe",
-    "sha256": "bfe8ae92ea4bc8d987ba5f47e03a4a5baba51a606a48d00f8b661bf5708b843d",
-    "signature": "37d4f8c8fcd44b55f8448611c9b71e57264d1e7ac40314cee19a990da48d323bb7c1cda99868c3abd264e0dd3058a8c739c237ec44fa320393cf6eb9d2d06c06",
-    "notes": "Fixes for disk images.\n- An image of a disk that was interrupted now carries on where it stopped, instead of reading the whole disk again (which wears a failing disk). It first checks a few sectors, so another disk at the same place, or an image damaged since, is imaged again.\n- An image that can't be opened is never carried on in a new, empty file.\n- Image a disk: the snapshot option now says that free space isn't read.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.7"
+    "version": "0.18.8",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.8/ucopy-setup.exe",
+    "sha256": "3bada3d260db9d8c8406b07c3dc6ef22bb2af910cb61176f7528f3d5c89396bf",
+    "signature": "2803709cc71b5025a6753f96581b45304977d8040c6598da154e4108985a19b0d60b9f6e406326d05c9ce1a7ae023101fddf39c525229fb98c7fd2c16c995609",
+    "notes": "Safer handling of file names in what ucopy writes and sends.\n- Discord and Slack alerts no longer ping anyone: a file named @everyone or <!channel> is shown as text.\n- Line breaks and terminal codes in file names are shown as escapes (\\n, \\x1b) in logs, reports, alerts and the command line, so a name can't fake a log line or affect a terminal.\n- Opening a folder from ucopy only ever opens a folder.\n- Choosing ucopy in Explorer's menu while a job runs no longer drops an earlier request.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.8"
   },
   "android": {
-    "version": "0.18.7",
-    "code": 53,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.7/ucopy-0.18.7.apk",
-    "sha256": "f9cc4f29ff176828abf76acf987c60c809b2495d2e615902a8307bc711666ab1",
-    "notes": "Fixes for disk images.\n- An image of a disk that was interrupted now carries on where it stopped, instead of reading the whole disk again (which wears a failing disk). It first checks a few sectors, so another disk at the same place, or an image damaged since, is imaged again.\n- An image that can't be opened is never carried on in a new, empty file.\n- Image a disk: the snapshot option now says that free space isn't read.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.7"
+    "version": "0.18.8",
+    "code": 54,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.8/ucopy-0.18.8.apk",
+    "sha256": "ecfb7b4e42cc1f49e2551923b328f0fcb02d80601b424c6f957b5d01fcb1b08c",
+    "notes": "Safer handling of file names in what ucopy writes and sends.\n- Discord and Slack alerts no longer ping anyone: a file named @everyone or <!channel> is shown as text.\n- Line breaks and terminal codes in file names are shown as escapes (\\n, \\x1b) in logs, reports, alerts and the command line, so a name can't fake a log line or affect a terminal.\n- Opening a folder from ucopy only ever opens a folder.\n- Choosing ucopy in Explorer's menu while a job runs no longer drops an earlier request.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.8"
   },
   "macos": {
     "version": "0.18.7",
