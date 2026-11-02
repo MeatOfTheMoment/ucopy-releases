@@ -1,20 +1,20 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.18.13",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.13/ucopy-setup.exe",
-    "sha256": "4cf2cf8da214b0f0b979016d728f6e89446a2b4e7d0c8dc0090d48be315c45a6",
-    "signature": "b8e005afb88e80a3cc9e2f3ea1b07f809eb190ad68826f82fb97c0de867ae1e3f09c3a23a25cad3b0f83c393d340cb63e622a5787b63895f657af8275bbbe007",
-    "notes": "Security fixes. Updating is recommended.\n- A job named on the command line (ucopy-cli run NAME) is always the saved job of that name, never a file of that name in the current folder. To run a job file, give its path: ./NAME.toml.\n- Jobs run by the system (as SYSTEM or root) can no longer be made to write over other files through links put in the target folder by someone who can change it.\n- Linux and Mac: jobs run as root are refused when their file could be changed by anyone but root. Saving such a job again fixes it.\n- Reports, recovery sheets and restore guides are never written through a link put where they're saved.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.13"
+    "version": "0.18.14",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.14/ucopy-setup.exe",
+    "sha256": "e666a331a1467fcb7b969cf1c5181047abcbc86ccdb3c7e9e9784119c5bb3482",
+    "signature": "03c7471e394d054b17426749aaac973a48baa809103b4f006bb2a3692a4d955c738d7d26e9a28851bc78649637e381bdd69147e92b4627e1d740e04e1525cd0c",
+    "notes": "Fixes for putting messages and contacts back on the phone. Nothing changes on Windows.\n- Phone: a message that was waiting to be sent when it was backed up comes back as failed to send, so no messaging app sends it by itself. Resend it by hand if you want it sent.\n- Phone: restoring messages and contacts from a backup that isn't signed says so, as restoring files does.\n- Phone: messages files from SMS Backup & Restore with many pictures in them can be restored; very large ones made the app close.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.14"
   },
   "android": {
-    "version": "0.18.13",
-    "code": 59,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.13/ucopy-0.18.13.apk",
-    "sha256": "026dc390328f9005af883e4758bae31d846ed73604a308c9d2b5a041b1614b98",
-    "notes": "Security fixes. Updating is recommended.\n- A job named on the command line (ucopy-cli run NAME) is always the saved job of that name, never a file of that name in the current folder. To run a job file, give its path: ./NAME.toml.\n- Jobs run by the system (as SYSTEM or root) can no longer be made to write over other files through links put in the target folder by someone who can change it.\n- Linux and Mac: jobs run as root are refused when their file could be changed by anyone but root. Saving such a job again fixes it.\n- Reports, recovery sheets and restore guides are never written through a link put where they're saved.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.13"
+    "version": "0.18.14",
+    "code": 60,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.14/ucopy-0.18.14.apk",
+    "sha256": "d5b6454c1f101967b335e8d95bcd4065ea86c41e21c2cfa7f0ff06102f23e00c",
+    "notes": "Fixes for putting messages and contacts back on the phone. Nothing changes on Windows.\n- Phone: a message that was waiting to be sent when it was backed up comes back as failed to send, so no messaging app sends it by itself. Resend it by hand if you want it sent.\n- Phone: restoring messages and contacts from a backup that isn't signed says so, as restoring files does.\n- Phone: messages files from SMS Backup & Restore with many pictures in them can be restored; very large ones made the app close.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.14"
   },
   "macos": {
     "version": "0.18.7",
