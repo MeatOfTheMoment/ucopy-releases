@@ -1,20 +1,20 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.18.12",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.12/ucopy-setup.exe",
-    "sha256": "21c8fb40ad82433e2af7ef410be9fcce94ed16be8685122dd6acdf2b70970d8e",
-    "signature": "c9ba1b2de91264f6f7b6ea30408ee4e150e76deb55bf7f3157baea27981844e7b0dfe455cde1ee0532d4c3ec6c4b1cc97d07fc4d82d5567b269b0ab0ba016904",
-    "notes": "Safety fixes for disk images. Updating is recommended.\n- A disk image can no longer be saved on the disk it's made of, whichever way it's started (the window, a scheduled image job or the command line). Linux: the disk the system runs from can now be imaged onto another drive.\n- A device or pipe put where an image or a copy is saved is refused instead of written to.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.12"
+    "version": "0.18.13",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.13/ucopy-setup.exe",
+    "sha256": "4cf2cf8da214b0f0b979016d728f6e89446a2b4e7d0c8dc0090d48be315c45a6",
+    "signature": "b8e005afb88e80a3cc9e2f3ea1b07f809eb190ad68826f82fb97c0de867ae1e3f09c3a23a25cad3b0f83c393d340cb63e622a5787b63895f657af8275bbbe007",
+    "notes": "Security fixes. Updating is recommended.\n- A job named on the command line (ucopy-cli run NAME) is always the saved job of that name, never a file of that name in the current folder. To run a job file, give its path: ./NAME.toml.\n- Jobs run by the system (as SYSTEM or root) can no longer be made to write over other files through links put in the target folder by someone who can change it.\n- Linux and Mac: jobs run as root are refused when their file could be changed by anyone but root. Saving such a job again fixes it.\n- Reports, recovery sheets and restore guides are never written through a link put where they're saved.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.13"
   },
   "android": {
-    "version": "0.18.12",
-    "code": 58,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.12/ucopy-0.18.12.apk",
-    "sha256": "7f28de1490c6f191cdca4e63d2179c2439860e3c014b83857577f4728d7da33e",
-    "notes": "Safety fixes for disk images. Updating is recommended.\n- A disk image can no longer be saved on the disk it's made of, whichever way it's started (the window, a scheduled image job or the command line). Linux: the disk the system runs from can now be imaged onto another drive.\n- A device or pipe put where an image or a copy is saved is refused instead of written to.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.12"
+    "version": "0.18.13",
+    "code": 59,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.13/ucopy-0.18.13.apk",
+    "sha256": "026dc390328f9005af883e4758bae31d846ed73604a308c9d2b5a041b1614b98",
+    "notes": "Security fixes. Updating is recommended.\n- A job named on the command line (ucopy-cli run NAME) is always the saved job of that name, never a file of that name in the current folder. To run a job file, give its path: ./NAME.toml.\n- Jobs run by the system (as SYSTEM or root) can no longer be made to write over other files through links put in the target folder by someone who can change it.\n- Linux and Mac: jobs run as root are refused when their file could be changed by anyone but root. Saving such a job again fixes it.\n- Reports, recovery sheets and restore guides are never written through a link put where they're saved.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.13"
   },
   "macos": {
     "version": "0.18.7",
