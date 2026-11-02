@@ -17,11 +17,11 @@
     "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.14"
   },
   "macos": {
-    "version": "0.18.7",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.7/ucopy-0.18.7.dmg",
-    "sha256": "65e2c9386d185401be5a980da3f024ae4189c7dfdd393a34436fd2185569f21e",
-    "signature": "20b4e46b113950e10268e99911c0cfabfd999bc6e4f34b63f20c8cc1cd8a0fa7cc30d91569024e085d2de897216d7b5215ea30079e4c48890149bff03e540d05",
-    "notes": "Fixes for disk images.\n- An image of a disk that was interrupted now carries on where it stopped, instead of reading the whole disk again (which wears a failing disk). It first checks a few sectors, so another disk at the same place, or an image damaged since, is imaged again.\n- An image that can't be opened is never carried on in a new, empty file.\n- Image a disk: the snapshot option now says that free space isn't read.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.7"
+    "version": "0.18.14",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.14/ucopy-0.18.14.dmg",
+    "sha256": "160486b93beeaf272c364303cd0b2b3aeec7ec22cbfc25e1f0e504f7b46088ca",
+    "signature": "c43ec0319ff09b9a3f9f3c5f5a6d2ba61403da5cdac69ca33c8454d0cc0806db4531dc63e835915edd84f8d6cec70ba0dc648a543a71577fcb58386df444d00e",
+    "notes": "Fixes for putting messages and contacts back on the phone. Nothing changes on Windows.\n- Phone: a message that was waiting to be sent when it was backed up comes back as failed to send, so no messaging app sends it by itself. Resend it by hand if you want it sent.\n- Phone: restoring messages and contacts from a backup that isn't signed says so, as restoring files does.\n- Phone: messages files from SMS Backup & Restore with many pictures in them can be restored; very large ones made the app close.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.14"
   }
 }
