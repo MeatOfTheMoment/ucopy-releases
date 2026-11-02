@@ -1,20 +1,20 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.18.11",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.11/ucopy-setup.exe",
-    "sha256": "0b0ffdc049f6b6b913a3a74283cac06dd204256c9d075582ba494b0ea232a0c5",
-    "signature": "f7e21a0875c4ca94141dc6063efe7c316a7ace92445cc5b97270483869745e6e5f9c8b3bc8add5a325aba0fa80f23c59e4c61f9f197f830a8bd342507d7cae0d",
-    "notes": "Security fixes. Updating is recommended.\n- Alert email addresses and push links of backup jobs run by the system (as SYSTEM or root) are kept where only administrators can read them, no longer in the job files every user can read.\n- Phone: ucopy's own files (pairing keys, share logins, signing keys, copies of messages and contacts) no longer leave the phone through Android's backup or a transfer to a new phone. On a new phone, set ucopy up again; your backups still open with their password.\n- Phone: other apps can no longer make ucopy ask about backing up to a drive, or act as if a drive was plugged in.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.11"
+    "version": "0.18.12",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.12/ucopy-setup.exe",
+    "sha256": "21c8fb40ad82433e2af7ef410be9fcce94ed16be8685122dd6acdf2b70970d8e",
+    "signature": "c9ba1b2de91264f6f7b6ea30408ee4e150e76deb55bf7f3157baea27981844e7b0dfe455cde1ee0532d4c3ec6c4b1cc97d07fc4d82d5567b269b0ab0ba016904",
+    "notes": "Safety fixes for disk images. Updating is recommended.\n- A disk image can no longer be saved on the disk it's made of, whichever way it's started (the window, a scheduled image job or the command line). Linux: the disk the system runs from can now be imaged onto another drive.\n- A device or pipe put where an image or a copy is saved is refused instead of written to.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.12"
   },
   "android": {
-    "version": "0.18.11",
-    "code": 57,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.11/ucopy-0.18.11.apk",
-    "sha256": "03cc1bc5a803924e2956c2e295413ce80591e8f179757b376bd53e922518cc3a",
-    "notes": "Security fixes. Updating is recommended.\n- Alert email addresses and push links of backup jobs run by the system (as SYSTEM or root) are kept where only administrators can read them, no longer in the job files every user can read.\n- Phone: ucopy's own files (pairing keys, share logins, signing keys, copies of messages and contacts) no longer leave the phone through Android's backup or a transfer to a new phone. On a new phone, set ucopy up again; your backups still open with their password.\n- Phone: other apps can no longer make ucopy ask about backing up to a drive, or act as if a drive was plugged in.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.11"
+    "version": "0.18.12",
+    "code": 58,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.12/ucopy-0.18.12.apk",
+    "sha256": "7f28de1490c6f191cdca4e63d2179c2439860e3c014b83857577f4728d7da33e",
+    "notes": "Safety fixes for disk images. Updating is recommended.\n- A disk image can no longer be saved on the disk it's made of, whichever way it's started (the window, a scheduled image job or the command line). Linux: the disk the system runs from can now be imaged onto another drive.\n- A device or pipe put where an image or a copy is saved is refused instead of written to.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.12"
   },
   "macos": {
     "version": "0.18.7",
