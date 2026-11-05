@@ -1,20 +1,20 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.18.14",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.14/ucopy-setup.exe",
-    "sha256": "e666a331a1467fcb7b969cf1c5181047abcbc86ccdb3c7e9e9784119c5bb3482",
-    "signature": "03c7471e394d054b17426749aaac973a48baa809103b4f006bb2a3692a4d955c738d7d26e9a28851bc78649637e381bdd69147e92b4627e1d740e04e1525cd0c",
-    "notes": "Fixes for putting messages and contacts back on the phone. Nothing changes on Windows.\n- Phone: a message that was waiting to be sent when it was backed up comes back as failed to send, so no messaging app sends it by itself. Resend it by hand if you want it sent.\n- Phone: restoring messages and contacts from a backup that isn't signed says so, as restoring files does.\n- Phone: messages files from SMS Backup & Restore with many pictures in them can be restored; very large ones made the app close.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.14"
+    "version": "0.18.15",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.15/ucopy-setup.exe",
+    "sha256": "e7aa547e2a397f6c41f35c0509204de24061fd1e582191f93ac8ff49912e095b",
+    "signature": "a896d2ae1edbdb6cf623d5967394338ed93890426ad27b507183f1379f8a168f0a64d53636060571030109975a0e4d50c7844e5bd9855da878d704815a4b180e",
+    "notes": "Getting ucopy onto a phone is easier. Nothing changes in the phone app.\n- Computer: Simple's steps for backing up a phone show a QR code for the download page. Point the phone's camera at it instead of typing the address.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.15"
   },
   "android": {
-    "version": "0.18.14",
-    "code": 60,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.14/ucopy-0.18.14.apk",
-    "sha256": "d5b6454c1f101967b335e8d95bcd4065ea86c41e21c2cfa7f0ff06102f23e00c",
-    "notes": "Fixes for putting messages and contacts back on the phone. Nothing changes on Windows.\n- Phone: a message that was waiting to be sent when it was backed up comes back as failed to send, so no messaging app sends it by itself. Resend it by hand if you want it sent.\n- Phone: restoring messages and contacts from a backup that isn't signed says so, as restoring files does.\n- Phone: messages files from SMS Backup & Restore with many pictures in them can be restored; very large ones made the app close.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.14"
+    "version": "0.18.15",
+    "code": 61,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.15/ucopy-0.18.15.apk",
+    "sha256": "a3b105bebfebd7387082a1a502dd9803c6dddcb5566d8e44620ddd40cbb484ff",
+    "notes": "Getting ucopy onto a phone is easier. Nothing changes in the phone app.\n- Computer: Simple's steps for backing up a phone show a QR code for the download page. Point the phone's camera at it instead of typing the address.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.15"
   },
   "macos": {
     "version": "0.18.14",
