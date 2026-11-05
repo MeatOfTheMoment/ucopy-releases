@@ -1,20 +1,20 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.18.15",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.15/ucopy-setup.exe",
-    "sha256": "e7aa547e2a397f6c41f35c0509204de24061fd1e582191f93ac8ff49912e095b",
-    "signature": "a896d2ae1edbdb6cf623d5967394338ed93890426ad27b507183f1379f8a168f0a64d53636060571030109975a0e4d50c7844e5bd9855da878d704815a4b180e",
-    "notes": "Getting ucopy onto a phone is easier. Nothing changes in the phone app.\n- Computer: Simple's steps for backing up a phone show a QR code for the download page. Point the phone's camera at it instead of typing the address.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.15"
+    "version": "0.18.16",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.16/ucopy-setup.exe",
+    "sha256": "132f10b87dce884f3e576f605ab38e2a58945a8c267bd892d95dadf7e917e56d",
+    "signature": "249ec08c9234e8b6b7df2d86599c0b1ae258f257acfcf491ff34dcef6ebf0fa8ca847b5a71c447f070c77e7225caeacdf503402ad98102469fd68e3a22c37305",
+    "notes": "Text is larger and easier to read on the computer. Nothing changes in the phone app.\n- Computer: all text is larger, the smallest most of all.\n- Computer: long folder paths wrap instead of pushing buttons off the window.\n- Computer: the smallest window is a little taller, so the file list keeps its room.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.16"
   },
   "android": {
-    "version": "0.18.15",
-    "code": 61,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.15/ucopy-0.18.15.apk",
-    "sha256": "a3b105bebfebd7387082a1a502dd9803c6dddcb5566d8e44620ddd40cbb484ff",
-    "notes": "Getting ucopy onto a phone is easier. Nothing changes in the phone app.\n- Computer: Simple's steps for backing up a phone show a QR code for the download page. Point the phone's camera at it instead of typing the address.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.15"
+    "version": "0.18.16",
+    "code": 62,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.16/ucopy-0.18.16.apk",
+    "sha256": "d7ce8ee94397b7ff38159439a587b2ae675c9f33ba2331b751099114a9f6fd26",
+    "notes": "Text is larger and easier to read on the computer. Nothing changes in the phone app.\n- Computer: all text is larger, the smallest most of all.\n- Computer: long folder paths wrap instead of pushing buttons off the window.\n- Computer: the smallest window is a little taller, so the file list keeps its room.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.16"
   },
   "macos": {
     "version": "0.18.14",
