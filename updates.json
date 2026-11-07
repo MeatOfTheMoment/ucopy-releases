@@ -1,20 +1,20 @@
 {
   "moved_to": null,
   "windows": {
-    "version": "0.18.16",
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.16/ucopy-setup.exe",
-    "sha256": "132f10b87dce884f3e576f605ab38e2a58945a8c267bd892d95dadf7e917e56d",
-    "signature": "249ec08c9234e8b6b7df2d86599c0b1ae258f257acfcf491ff34dcef6ebf0fa8ca847b5a71c447f070c77e7225caeacdf503402ad98102469fd68e3a22c37305",
-    "notes": "Text is larger and easier to read on the computer. Nothing changes in the phone app.\n- Computer: all text is larger, the smallest most of all.\n- Computer: long folder paths wrap instead of pushing buttons off the window.\n- Computer: the smallest window is a little taller, so the file list keeps its room.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.16"
+    "version": "0.18.17",
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.17/ucopy-setup.exe",
+    "sha256": "01c2556638b9f85fa27b886a779e27a4de548f7fcfb1102020927aa1e49f73ee",
+    "signature": "ff03182125530b04efa816866ebe3d1d43e44c7938915fbb2795d265bdc1b24b534f92be964506b2b1395a5035df15bed3789a161ba87c1f64212e4397ddf90f",
+    "notes": "Choosing where a phone's backups go on the computer is easier, and buttons are easier to spot.\n- Computer: choose the folder for a phone's backups in Simple's phone steps, before the phone asks.\n- Computer: Change folder\u2026 moves a phone's next backups to another folder (in the phone's backup in Jobs, and on its card in Simple).\n- Computer: jobs in the Jobs list look like buttons, and the phone's Files view has larger Recent pictures and Browse folders buttons and a Send to Phone\u2026 button.\n- Phone: folders Android keeps closed, such as Android/data, are left out when the computer browses the phone, instead of showing an error.\n- Phone: ucopy on your computer is listed first and chosen for a new backup, and the phone shows which folder on the computer keeps its backups.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.17"
   },
   "android": {
-    "version": "0.18.16",
-    "code": 62,
-    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.16/ucopy-0.18.16.apk",
-    "sha256": "d7ce8ee94397b7ff38159439a587b2ae675c9f33ba2331b751099114a9f6fd26",
-    "notes": "Text is larger and easier to read on the computer. Nothing changes in the phone app.\n- Computer: all text is larger, the smallest most of all.\n- Computer: long folder paths wrap instead of pushing buttons off the window.\n- Computer: the smallest window is a little taller, so the file list keeps its room.",
-    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.16"
+    "version": "0.18.17",
+    "code": 63,
+    "url": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/download/v0.18.17/ucopy-0.18.17.apk",
+    "sha256": "116b8a3688f236ae8d6c4715648a8b0968fa16493dcd58ac56283dde4c96c2ca",
+    "notes": "Choosing where a phone's backups go on the computer is easier, and buttons are easier to spot.\n- Computer: choose the folder for a phone's backups in Simple's phone steps, before the phone asks.\n- Computer: Change folder\u2026 moves a phone's next backups to another folder (in the phone's backup in Jobs, and on its card in Simple).\n- Computer: jobs in the Jobs list look like buttons, and the phone's Files view has larger Recent pictures and Browse folders buttons and a Send to Phone\u2026 button.\n- Phone: folders Android keeps closed, such as Android/data, are left out when the computer browses the phone, instead of showing an error.\n- Phone: ucopy on your computer is listed first and chosen for a new backup, and the phone shows which folder on the computer keeps its backups.",
+    "page": "https://github.com/MeatOfTheMoment/ucopy-releases/releases/tag/v0.18.17"
   },
   "macos": {
     "version": "0.18.16",
